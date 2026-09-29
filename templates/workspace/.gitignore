@@ -1,0 +1,48 @@
+# Секреты и локальные данные
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+.local/
+*.session*
+projects/local-paths.md
+
+# ОС и редакторы
+.DS_Store
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Зависимости и результаты сборки
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.egg-info/
+*.tsbuildinfo
+.pytest_cache/
+
+# Временные файлы
+tmp/
+.tmp/
+
+# Тяжёлые медиа остаются локально
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.oga
+*.ogg
+
+# Код проектов — независимые репозитории, карточки — projects/*.md
+projects/*/
+# Общие инструкции-шаблоны входят во внешний воркспейс
+!projects/_templates/
+!projects/_templates/**
